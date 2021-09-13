@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>whatsapp</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div>
         <h1>CONTACT ON WHATSAPP</h1>
-        <input type="phone" placeholder="Whatsapp number with country code"><br>
-        <textarea name="" id="" cols="30" rows="25" placeholder="Message"></textarea><br>
-        <button>SEND MESSAGE</button>
+        <input id="num" type="phone" placeholder="Whatsapp number with country code"><br>
+        <textarea id="msg" cols="30" rows="25" placeholder="Message"></textarea><br>
+        <button id="btn" onclick="sendMessage()">SEND MESSAGE</button>
     </div>
 </body>
 
